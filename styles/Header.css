@@ -1,4 +1,4 @@
-.cabeçalho{
+.cabecalho{
     display: flex;
     justify-content: space-between;
     background-color: var(--branco);
@@ -6,9 +6,9 @@
 
 }
 
-.cabeçalho_menu{
+.cabecalho_menu{
     display: inline-block;
-    background-image: url(../img/cabeleireiro.png);
+    background-image: url(../img/menu.svg);
     background-repeat: no-repeat;
     background-position: center;
     width: 24px;
@@ -19,4 +19,24 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.container__imagem{
+    padding: lem;
+}
+
+.cabecalho-lista{
+    justify-content: space-between;
+    background-color: var(--branco);
+    position: absolute;
+    top: 100%;
+    width: 60vw;
+}
+
+.container__menu:checked~.cabecalho-lista{
+    display: block;
+}
+
+.container__menu{
+    display: none;
 }
