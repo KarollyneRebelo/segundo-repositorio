@@ -3,7 +3,7 @@
     justify-content: space-between;
     background-color: var(--branco);
     position: relative;
-
+    align-items: center;
 }
 
 .cabecalho_menu{
@@ -22,7 +22,8 @@
 }
 
 .container__imagem{
-    padding: lem;
+    width: 10%;
+    padding: 1em;
 }
 
 .cabecalho-lista{
@@ -40,3 +41,31 @@
 .container__menu{
     display: none;
 }
+
+.cabecalho-lista-titulo{
+    color: var(--roxo)
+}
+
+.cabecalho-lista-item{
+    color: var(--branco)
+    padding: var(--aqua)
+}
+
+@media screen and (min-width: 1024px){
+        .container-titulo{
+            display: block;
+            font-family: var(--fonte-principal);
+            font-weight: 400;
+            font-size: 30px;
+        }
+
+        .cabecalho_menu{
+            display: none;
+        }
+
+         .cabecalho__favorito{
+            display: none;
+         }
+
+    }
+        
