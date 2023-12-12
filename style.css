@@ -58,7 +58,7 @@ header {
 }
 
 .secao1 {
-background-image: linear-gradient(#424E61, #16CFF8);
+background-image: linear-gradient(--cor-secundaria, --cor-defundo);
 color: var(--cor-secundaria);
 display: flex;
 justify-content: center;
