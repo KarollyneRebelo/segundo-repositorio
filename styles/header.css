@@ -55,7 +55,7 @@
 
 .cabecalho-lista-item{
     padding: 1em;
-    color: var(--azul);
+    color: var(--cor-principal);
 }
 
 .container-titulo{
