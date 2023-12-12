@@ -48,7 +48,7 @@
 
 .cabecacalho-lista-titulo{
     padding: 1em;
-    color: var(--preto);
+    color: var(--cor);
     font-weight: 700;
     text-transform: uppercase;
 }
