@@ -11,22 +11,8 @@
     --cor-escrita: #000000;
     --cor-defundo: #ebe3fb;
     --cor-header: #a192c1;
-
-
-
-
-
-
-
-    --fonte-principal: "roboto";
+    --fonte-principal: "Roboto";
     --fonte-secundaria: "Afacad";
-
-}
-
-
-* {
-    margin: 0;
-    padding: 0;
 }
 
 body {
@@ -58,7 +44,7 @@ header {
 }
 
 .secao1 {
-background-image: linear-gradient(--cor-secundaria, --cor-defundo);
+background-image: linear-gradient(#a192c1,  #ebe3fb);
 color: var(--cor-secundaria);
 display: flex;
 justify-content: center;
